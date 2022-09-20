@@ -1,0 +1,58 @@
+@{
+    # ID used to uniquely identify this document
+    GUID = '088b7f13-51e2-455c-9534-c31afc1b198a'
+
+    # Author of this document
+    Author = 'Josh Breeze'
+
+    # Description of the functionality provided by these settings
+    Description = 'Role capability for admins to send whatever they want'
+
+    # Company associated with this document
+    CompanyName = 'PowerShell Meetup'
+
+    # Copyright statement for this document
+    Copyright = '(c) 2022. All rights reserved.'
+
+    # Modules to import when applied to a session
+    ModulesToImport = ''
+
+    # Aliases to make visible when applied to a session
+    # VisibleAliases = 'Item1', 'Item2'
+
+    # Cmdlets to make visible when applied to a session
+    VisibleCmdlets = ''
+
+    # Functions to make visible when applied to a session
+    VisibleFunctions = 'Send-PSSlackMessage'
+
+    # External commands (scripts and applications) to make visible when applied to a session
+    VisibleExternalCommands = 'c:\windows\system32\whoami.exe'
+
+    # Providers to make visible when applied to a session
+    # VisibleProviders = 'Item1', 'Item2'
+
+    # Scripts to run when applied to a session
+    # ScriptsToProcess = 'C:\ConfigData\InitScript1.ps1', 'C:\ConfigData\InitScript2.ps1'
+
+    # Aliases to be defined when applied to a session
+    AliasDefinitions = @{}
+
+    # Functions to define when applied to a session
+    # FunctionDefinitions = @{ Name = 'MyFunction'; ScriptBlock = { param($MyInput) $MyInput } }
+
+    # Variables to define when applied to a session
+    # VariableDefinitions = @{ Name = 'Variable1'; Value = { 'Dynamic' + 'InitialValue' } }, @{ Name = 'Variable2'; Value = 'StaticInitialValue' }
+
+    # Environment variables to define when applied to a session
+    # EnvironmentVariables = @{ Variable1 = 'Value1'; Variable2 = 'Value2' }
+
+    # Type files (.ps1xml) to load when applied to a session
+    # TypesToProcess = 'C:\ConfigData\MyTypes.ps1xml', 'C:\ConfigData\OtherTypes.ps1xml'
+
+    # Format files (.ps1xml) to load when applied to a session
+    # FormatsToProcess = 'C:\ConfigData\MyFormats.ps1xml', 'C:\ConfigData\OtherFormats.ps1xml'
+
+    # Assemblies to load when applied to a session
+    # AssembliesToLoad = 'System.Web', 'System.OtherAssembly, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+}
